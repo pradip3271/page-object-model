@@ -1,8 +1,9 @@
 /home/pradip/eclipse-workspace/donation/src/test/java/com/comicrelief/apps/donation/pageobjects/GiftAidPage.java
+/home/pradip/eclipse-workspace/donation/src/test/java/com/comicrelief/apps/donation/pageobjects/ThankYouPage.java
 /home/pradip/eclipse-workspace/donation/src/test/java/com/comicrelief/apps/donation/VerifyErrorMessageTest.java
 /home/pradip/eclipse-workspace/donation/src/test/java/com/comicrelief/apps/donation/pageobjects/PersonalDetailPage.java
-/home/pradip/eclipse-workspace/donation/src/test/java/com/comicrelief/apps/donation/DonateJourneyTest.java
 /home/pradip/eclipse-workspace/donation/src/test/java/com/comicrelief/apps/donation/utils/WebUtil.java
 /home/pradip/eclipse-workspace/donation/src/test/java/com/comicrelief/apps/donation/pageobjects/WorldPayPaymentPage.java
+/home/pradip/eclipse-workspace/donation/src/test/java/com/comicrelief/apps/donation/DonateJourneyTest.java
 /home/pradip/eclipse-workspace/donation/src/test/java/com/comicrelief/apps/donation/BaseTest.java
 /home/pradip/eclipse-workspace/donation/src/test/java/com/comicrelief/apps/donation/pageobjects/HomePage.java
