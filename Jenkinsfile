@@ -1,14 +1,9 @@
 pipeline {
-  agent {
-    node {
-      label 'pomt'
-    }
-
-  }
+  agent any
   stages {
     stage('Build') {
       steps {
-        sh 'npm install'
+        sh 'mvn clean'
       }
     }
   }
