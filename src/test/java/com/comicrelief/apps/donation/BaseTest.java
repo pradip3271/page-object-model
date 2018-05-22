@@ -10,7 +10,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 import com.comicrelief.apps.donation.pageobjects.GiftAidPage;
@@ -33,11 +32,15 @@ WebDriver driver;
 	public static String userName = null;
 	public static String accessKey = null;
 		
-	@BeforeSuite
-	public void setUp() throws Exception {
+	public BaseTest() {
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("./src/test/java/files/env.properties");
-		prop.load(fis);
+		FileInputStream fis;
+		try {
+			fis = new FileInputStream("./src/test/java/files/env.properties");
+			prop.load(fis);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 		baseUrl = prop.getProperty("BASE_URL");
 		
