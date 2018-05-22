@@ -8,6 +8,7 @@
           <include name="donateJourneyPayPal"/>
           <include name="tearDown"/>
           <include name="setDriver"/>
+          <include name="donateJourneyWorldPay"/>
         </methods>
       </class> <!-- com.comicrelief.apps.donation.DonateJourneyTest -->
     </classes>

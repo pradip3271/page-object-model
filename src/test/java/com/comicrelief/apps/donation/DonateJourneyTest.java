@@ -45,7 +45,7 @@ public class DonateJourneyTest extends BaseTest{
 		worldPayPaymentPage = PageFactory.initElements(driver, WorldPayPaymentPage.class);
 		
 		// make payment with world pay
-		worldPayPaymentPage.makePayment();
+		worldPayPaymentPage.makePayment(driver);
 		
 		// Verify thank you page
 		thankYouPage = PageFactory.initElements(driver, ThankYouPage.class);

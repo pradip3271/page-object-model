@@ -1,29 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17126" started-at="2018-05-04T13:53:32Z" finished-at="2018-05-04T13:53:50Z">
+  <suite name="Suite" duration-ms="47052" started-at="2018-05-16T11:59:04Z" finished-at="2018-05-16T11:59:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17126" started-at="2018-05-04T13:53:32Z" finished-at="2018-05-04T13:53:50Z">
+    <test name="ChromeTest" duration-ms="30313" started-at="2018-05-16T11:59:04Z" finished-at="2018-05-16T11:59:34Z">
       <class name="com.comicrelief.apps.donation.DonateJourneyTest">
-        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@e25b2fe]" name="setDriver" is-config="true" duration-ms="1251" started-at="2018-05-04T13:53:32Z" finished-at="2018-05-04T13:53:34Z">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@72d818d1]" name="setDriver" is-config="true" duration-ms="7025" started-at="2018-05-16T11:59:04Z" finished-at="2018-05-16T11:59:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="donateJourneyPayPal()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@e25b2fe]" name="donateJourneyPayPal" duration-ms="4644" started-at="2018-05-04T13:53:34Z" finished-at="2018-05-04T13:53:38Z">
+        <test-method status="PASS" signature="donateJourneyPayPal()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@72d818d1]" name="donateJourneyPayPal" duration-ms="3522" started-at="2018-05-16T11:59:11Z" finished-at="2018-05-16T11:59:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- donateJourneyPayPal -->
-        <test-method status="PASS" signature="donateJourneyWorldPay()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@e25b2fe]" name="donateJourneyWorldPay" duration-ms="11115" started-at="2018-05-04T13:53:38Z" finished-at="2018-05-04T13:53:49Z">
+        <test-method status="PASS" signature="donateJourneyWorldPay()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@72d818d1]" name="donateJourneyWorldPay" duration-ms="14266" started-at="2018-05-16T11:59:15Z" finished-at="2018-05-16T11:59:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- donateJourneyWorldPay -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@e25b2fe]" name="tearDown" is-config="true" duration-ms="84" started-at="2018-05-04T13:53:49Z" finished-at="2018-05-04T13:53:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@72d818d1]" name="tearDown" is-config="true" duration-ms="5445" started-at="2018-05-16T11:59:29Z" finished-at="2018-05-16T11:59:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.comicrelief.apps.donation.DonateJourneyTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="32952" started-at="2018-05-16T11:59:04Z" finished-at="2018-05-16T11:59:37Z">
+      <class name="com.comicrelief.apps.donation.DonateJourneyTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@204f30ec]" name="setDriver" is-config="true" duration-ms="10634" started-at="2018-05-16T11:59:04Z" finished-at="2018-05-16T11:59:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[59.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="donateJourneyPayPal()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@204f30ec]" name="donateJourneyPayPal" duration-ms="3463" started-at="2018-05-16T11:59:15Z" finished-at="2018-05-16T11:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donateJourneyPayPal -->
+        <test-method status="PASS" signature="donateJourneyWorldPay()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@204f30ec]" name="donateJourneyWorldPay" duration-ms="13079" started-at="2018-05-16T11:59:18Z" finished-at="2018-05-16T11:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donateJourneyWorldPay -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@204f30ec]" name="tearDown" is-config="true" duration-ms="5749" started-at="2018-05-16T11:59:31Z" finished-at="2018-05-16T11:59:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.comicrelief.apps.donation.DonateJourneyTest -->
+    </test> <!-- FirefoxTest -->
+    <test name="SafariTest" duration-ms="47051" started-at="2018-05-16T11:59:04Z" finished-at="2018-05-16T11:59:51Z">
+      <class name="com.comicrelief.apps.donation.DonateJourneyTest">
+        <test-method status="PASS" signature="setDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@56ef9176]" name="setDriver" is-config="true" duration-ms="7732" started-at="2018-05-16T11:59:04Z" finished-at="2018-05-16T11:59:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[High Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="donateJourneyPayPal()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@56ef9176]" name="donateJourneyPayPal" duration-ms="3578" started-at="2018-05-16T11:59:12Z" finished-at="2018-05-16T11:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donateJourneyPayPal -->
+        <test-method status="PASS" signature="donateJourneyWorldPay()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@56ef9176]" name="donateJourneyWorldPay" duration-ms="13668" started-at="2018-05-16T11:59:15Z" finished-at="2018-05-16T11:59:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donateJourneyWorldPay -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.comicrelief.apps.donation.DonateJourneyTest@56ef9176]" name="tearDown" is-config="true" duration-ms="22037" started-at="2018-05-16T11:59:29Z" finished-at="2018-05-16T11:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.comicrelief.apps.donation.DonateJourneyTest -->
+    </test> <!-- SafariTest -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,27 +1,31 @@
 package com.comicrelief.apps.donation.pageobjects;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import com.comicrelief.apps.donation.utils.WebUtil;
+
 public class WorldPayPaymentPage {
 	
-	@FindBy(css="#cardNumber")
+	@FindBy(id="cardNumber")
 	private WebElement cardNumberField;
 	
-	@FindBy(css="#expiryMonth")
+	@FindBy(id="expiryMonth")
 	private WebElement expiryMonthField;
 	
-	@FindBy(css="#expiryYear")
+	@FindBy(id="expiryYear")
 	private WebElement expiryYearField;
 	
-	@FindBy(css="#securityCode")
+	@FindBy(id="securityCode")
 	private WebElement securityCodeField;
 	
 	@FindBy(css=".btn-make-payment")
 	private WebElement makePaymentBtn;
 	
-	public void makePayment(){
-
+	public void makePayment(WebDriver driver){
+		
+		WebUtil.wiatUntilIdElementVisibility(driver, "cardNumber");
 		cardNumberField.sendKeys("4444333322221111");
 		expiryMonthField.sendKeys("10");
 		expiryYearField.sendKeys("2023");

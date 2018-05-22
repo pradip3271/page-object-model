@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Command line suite]">
-  <test thread-count="5" verbose="0" name="Command line test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="FirefoxTest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="osVersion" value="10"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="browserVersion" value="59.0"/>
     <classes>
       <class name="com.comicrelief.apps.donation.DonateJourneyTest">
         <methods>
@@ -9,16 +13,9 @@
           <include name="tearDown"/>
           <include name="setDriver"/>
           <include name="donateJourneyWorldPay"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- com.comicrelief.apps.donation.DonateJourneyTest -->
-      <class name="com.comicrelief.apps.donation.VerifyErrorMessageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verifyErrorMsgPersonalDetailPage"/>
-          <include name="setDriver"/>
-          <include name="verifyErrorMsgDonateHomePage"/>
-        </methods>
-      </class> <!-- com.comicrelief.apps.donation.VerifyErrorMessageTest -->
     </classes>
-  </test> <!-- Command line test(failed) -->
-</suite> <!-- Failed suite [Command line suite] -->
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
