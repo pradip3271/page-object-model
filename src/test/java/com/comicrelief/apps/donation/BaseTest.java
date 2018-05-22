@@ -51,7 +51,7 @@ WebDriver driver;
 			accessKey = prop.getProperty("BROWSERSTACK_ACCESSKEY");
 		}
 		
-		System.out.println("<<<<<<<<<<<<" + userName + accessKey );
+		System.out.println("<<<<<<<<<<<< BaseTest() constructor >>>>>>>>>>>>>");
 		
 	}
 	
@@ -78,6 +78,8 @@ WebDriver driver;
 	    driver = new RemoteWebDriver(
 	      new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub"),
 	      capability);
+	    
+	    System.out.println("<<<<<<<<<<<<" + userName + accessKey );
 		
 	    driver.manage().window().maximize();
 		
