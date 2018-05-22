@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        sh 'mvn clean package -P parallel'
+        sh 'mvn package -P parallel'
       }
     }
   }
