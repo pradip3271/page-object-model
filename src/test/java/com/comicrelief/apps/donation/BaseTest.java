@@ -74,7 +74,9 @@ public class BaseTest {
 	    capability.setCapability("os_version", osVersion);
 	    capability.setCapability("project", "P1");
 	    capability.setCapability("build", "1.0");
-	    driver = new RemoteWebDriver(capability);
+	    driver = new RemoteWebDriver(
+	      new URL("https://" + userName + ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub"),
+	      capability);
 		
 	    driver.manage().window().maximize();
 		
