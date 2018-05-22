@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="85.632" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.257" tests="24" errors="0" skipped="18" failures="6">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/pradip/eclipse-workspace/page-object-model-parallel-browserstack&lt;/target/surefire/surefirebooter1028900182961357926.jar /home/pradip/eclipse-workspace/page-object-model-parallel-browserstack&lt;/target/surefire 2018-05-22T09-50-51_354-jvmRun1 surefire4518947410482433588tmp surefire_08026115373897865665tmp"/>
+    <property name="sun.java.command" value="/home/pradip/eclipse-workspace/page-object-model-parallel-browserstack&lt;/target/surefire/surefirebooter803718370973983226.jar /home/pradip/eclipse-workspace/page-object-model-parallel-browserstack&lt;/target/surefire 2018-05-22T10-31-36_430-jvmRun1 surefire4451491989427610701tmp surefire_02971632809376239018tmp"/>
     <property name="surefire.test.class.path" value="/home/pradip/eclipse-workspace/page-object-model-parallel-browserstack&lt;/target/test-classes:/home/pradip/eclipse-workspace/page-object-model-parallel-browserstack&lt;/target/classes:/home/pradip/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/home/pradip/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/home/pradip/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/home/pradip/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/home/pradip/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/home/pradip/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/home/pradip/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/home/pradip/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/home/pradip/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/home/pradip/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/home/pradip/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/pradip/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/pradip/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/pradip/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/pradip/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/pradip/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/home/pradip/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/pradip/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/pradip/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/pradip/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/pradip/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/pradip/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/pradip/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/pradip/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/pradip/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/pradip/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/home/pradip/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/pradip/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/pradip/.m2/repository/com/github/javafaker/javafaker/0.15/javafaker-0.15.jar:/home/pradip/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/pradip/.m2/repository/org/yaml/snakeyaml/1.20/snakeyaml-1.20-android.jar:/home/pradip/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/home/pradip/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/home/pradip/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/home/pradip/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/pradip"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/pradip/eclipse-workspace/page-object-model-parallel-browserstack&lt;/target/surefire/surefirebooter1028900182961357926.jar"/>
+    <property name="surefire.real.class.path" value="/home/pradip/eclipse-workspace/page-object-model-parallel-browserstack&lt;/target/surefire/surefirebooter803718370973983226.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_171-b11"/>
@@ -58,16 +58,122 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="verifyErrorMsgDonateHomePage" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="2.834"/>
-  <testcase name="verifyErrorMsgDonateHomePage" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="1.754"/>
-  <testcase name="verifyErrorMsgDonateHomePage" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="4.312"/>
-  <testcase name="verifyErrorMsgPersonalDetailPage" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="0.759"/>
-  <testcase name="verifyErrorMsgPersonalDetailPage" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="2.488"/>
-  <testcase name="verifyErrorMsgPersonalDetailPage" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="3.122"/>
-  <testcase name="donateJourneyPayPal" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="3.761"/>
-  <testcase name="donateJourneyPayPal" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="3.643"/>
-  <testcase name="donateJourneyPayPal" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="3.365"/>
-  <testcase name="donateJourneyWorldPay" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="6.39"/>
-  <testcase name="donateJourneyWorldPay" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="2.943"/>
-  <testcase name="donateJourneyWorldPay" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="17.082"/>
+  <testcase name="setDriver" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="1.775">
+    <failure message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 960 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 960 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'pradip-HP-EliteBook-840-G3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-20-generic', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+</failure>
+    <system-out><![CDATA[<<<<<<<<<<<<nullZgfp2vRpwjtkj1TTx4ti
+<<<<<<<<<< Capability : Safari 11.0 OS X High Sierra
+<<<<<<<<<< Capability : Chrome 62.0 Windows 10
+<<<<<<<<<< Capability : Firefox 59.0 Windows 10
+]]></system-out>
+  </testcase>
+  <testcase name="setDriver" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="1.776">
+    <failure message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 960 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 960 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'pradip-HP-EliteBook-840-G3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-20-generic', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+</failure>
+  </testcase>
+  <testcase name="setDriver" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="1.778">
+    <failure message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 960 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 960 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'pradip-HP-EliteBook-840-G3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-20-generic', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+</failure>
+  </testcase>
+  <testcase name="verifyErrorMsgDonateHomePage" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="0">
+    <skipped message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 960 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="verifyErrorMsgDonateHomePage" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="0">
+    <skipped message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 960 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="verifyErrorMsgDonateHomePage" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="0">
+    <skipped message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 960 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+    <system-out><![CDATA[<<<<<<<<<< Capability : Firefox 59.0 Windows 10
+<<<<<<<<<< Capability : Safari 11.0 OS X High Sierra
+]]></system-out>
+  </testcase>
+  <testcase name="verifyErrorMsgPersonalDetailPage" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="0">
+    <skipped message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 960 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="verifyErrorMsgPersonalDetailPage" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="0">
+    <skipped message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 960 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="verifyErrorMsgPersonalDetailPage" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="0">
+    <skipped message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 960 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.comicrelief.apps.donation.VerifyErrorMessageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setDriver" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="1.989">
+    <failure message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 183 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 183 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'pradip-HP-EliteBook-840-G3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-20-generic', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+</failure>
+    <system-out><![CDATA[<<<<<<<<<< Capability : Chrome 62.0 Windows 10
+]]></system-out>
+  </testcase>
+  <testcase name="setDriver" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="1.99">
+    <failure message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 189 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 189 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'pradip-HP-EliteBook-840-G3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-20-generic', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+</failure>
+  </testcase>
+  <testcase name="setDriver" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="2.052">
+    <failure message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 240 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 240 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'pradip-HP-EliteBook-840-G3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-20-generic', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+</failure>
+  </testcase>
+  <testcase name="donateJourneyPayPal" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="0">
+    <skipped message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 183 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="donateJourneyPayPal" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="0">
+    <skipped message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 189 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="donateJourneyPayPal" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="0">
+    <skipped message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 240 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="donateJourneyWorldPay" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="0">
+    <skipped message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 183 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="donateJourneyWorldPay" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="0">
+    <skipped message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 189 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="donateJourneyWorldPay" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="0">
+    <skipped message="Invalid username or password (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 240 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;pradip-HP-EliteBook-840-G3&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-20-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.comicrelief.apps.donation.DonateJourneyTest" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>

@@ -1,4 +1,52 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 85.632 s - in TestSuite
+Tests run: 24, Failures: 6, Errors: 0, Skipped: 18, Time elapsed: 2.257 s <<< FAILURE! - in TestSuite
+setDriver(com.comicrelief.apps.donation.VerifyErrorMessageTest)  Time elapsed: 1.775 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 960 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'pradip-HP-EliteBook-840-G3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-20-generic', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+
+setDriver(com.comicrelief.apps.donation.VerifyErrorMessageTest)  Time elapsed: 1.776 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 960 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'pradip-HP-EliteBook-840-G3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-20-generic', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+
+setDriver(com.comicrelief.apps.donation.VerifyErrorMessageTest)  Time elapsed: 1.778 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 960 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'pradip-HP-EliteBook-840-G3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-20-generic', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+
+setDriver(com.comicrelief.apps.donation.DonateJourneyTest)  Time elapsed: 1.989 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 183 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'pradip-HP-EliteBook-840-G3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-20-generic', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+
+setDriver(com.comicrelief.apps.donation.DonateJourneyTest)  Time elapsed: 1.99 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 189 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'pradip-HP-EliteBook-840-G3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-20-generic', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+
+setDriver(com.comicrelief.apps.donation.DonateJourneyTest)  Time elapsed: 2.052 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Invalid username or password (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 240 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'pradip-HP-EliteBook-840-G3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-20-generic', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+

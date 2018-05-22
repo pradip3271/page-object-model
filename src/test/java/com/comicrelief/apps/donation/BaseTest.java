@@ -3,20 +3,14 @@ package com.comicrelief.apps.donation;
 import org.testng.annotations.AfterClass;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.net.URL;
 import java.util.Properties;
 
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 import com.comicrelief.apps.donation.pageobjects.GiftAidPage;
@@ -47,7 +41,7 @@ WebDriver driver;
 		
 		baseUrl = prop.getProperty("BASE_URL");
 		
-		userName = System.getenv("BROWSERSTACK_USERNAME");
+		userName = System.getenv("BROWSERSTACK_USER");
 		accessKey = System.getenv("BROWSERSTACK_ACCESSKEY");
 		if(userName == null || accessKey == null) {
 			userName = prop.getProperty("BROWSERSTACK_USER");
