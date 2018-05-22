@@ -50,9 +50,11 @@ WebDriver driver;
 		userName = System.getenv("BROWSERSTACK_USERNAME");
 		accessKey = System.getenv("BROWSERSTACK_ACCESSKEY");
 		if(userName == null || accessKey == null) {
-			userName = prop.getProperty("BROWSERSTACK_USERNAME");
+			userName = prop.getProperty("BROWSERSTACK_USER");
 			accessKey = prop.getProperty("BROWSERSTACK_ACCESSKEY");
 		}
+		
+		System.out.println("<<<<<<<<<<<<" + userName + accessKey );
 		
 	}
 	
