@@ -59,7 +59,7 @@ WebDriver driver;
 	@Parameters(value={"browser","browserVersion","os","osVersion"})
 	public void setDriver(String browserName, String browserVersion, String osName, String osVersion) throws Exception {
 		
-		System.out.println("<<<<<<<<<< Capability : " + browserName + " " + browserVersion + " " + osName + " " + osVersion);
+		System.out.println("<<<<<<<<<< Capability1 : " + browserName + " " + browserVersion + " " + osName + " " + osVersion);
 		System.out.println("<<<<<<<<<<<<" + userName + accessKey );
 				
 		// ******************* Parallel test run in Browser Stack ***********************
