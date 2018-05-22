@@ -21,7 +21,7 @@ import com.comicrelief.apps.donation.pageobjects.WorldPayPaymentPage;
 
 public class BaseTest {
 
-WebDriver driver;
+	WebDriver driver;
 
 	protected HomePage homePage;
 	protected GiftAidPage giftAidPage;
@@ -47,10 +47,10 @@ WebDriver driver;
 		userName = System.getenv("BROWSERSTACK_USER");
 		accessKey = System.getenv("BROWSERSTACK_ACCESSKEY");
 		System.out.println("<<<<<<<<<<<<" + userName + accessKey );
-//		if(userName == null || accessKey == null) {
-//			userName = prop.getProperty("BROWSERSTACK_USER");
-//			accessKey = prop.getProperty("BROWSERSTACK_ACCESSKEY");
-//		}
+		if(userName == null || accessKey == null) {
+			userName = prop.getProperty("BROWSERSTACK_USER");
+			accessKey = prop.getProperty("BROWSERSTACK_ACCESSKEY");
+		}
 				
 	}
 	
@@ -74,9 +74,7 @@ WebDriver driver;
 	    capability.setCapability("os_version", osVersion);
 	    capability.setCapability("project", "P1");
 	    capability.setCapability("build", "1.0");
-	    driver = new RemoteWebDriver(
-	      new URL("https://"+userName+":"+accessKey+"@hub-cloud.browserstack.com/wd/hub"),
-	      capability);
+	    driver = new RemoteWebDriver(capability);
 		
 	    driver.manage().window().maximize();
 		

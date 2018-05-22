@@ -3,11 +3,12 @@ package com.comicrelief.apps.donation;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-import com.comicrelief.apps.donation.pageobjects.HomePage;
 import com.comicrelief.apps.donation.pageobjects.GiftAidPage;
+import com.comicrelief.apps.donation.pageobjects.HomePage;
 import com.comicrelief.apps.donation.pageobjects.PersonalDetailPage;
 import com.comicrelief.apps.donation.pageobjects.ThankYouPage;
 import com.comicrelief.apps.donation.pageobjects.WorldPayPaymentPage;
+
 
 public class DonateJourneyTest extends BaseTest{
 	
