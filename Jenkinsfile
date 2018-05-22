@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'mvn clean'
+        sh 'mvn clean compile'
       }
     }
     stage('Test') {
       steps {
-        sh 'mvn package -P parallel'
+        sh 'mvn test -P parallel'
       }
     }
   }
