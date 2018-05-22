@@ -46,21 +46,19 @@ WebDriver driver;
 		
 		userName = System.getenv("BROWSERSTACK_USER");
 		accessKey = System.getenv("BROWSERSTACK_ACCESSKEY");
+		System.out.println("<<<<<<<<<<<<" + userName + accessKey );
 		if(userName == null || accessKey == null) {
 			userName = prop.getProperty("BROWSERSTACK_USER");
 			accessKey = prop.getProperty("BROWSERSTACK_ACCESSKEY");
 		}
-		
-		System.out.println("<<<<<<<<<<<< BaseTest() constructor >>>>>>>>>>>>>");
-		
+				
 	}
 	
 	@BeforeClass
 	@Parameters(value={"browser","browserVersion","os","osVersion"})
 	public void setDriver(String browserName, String browserVersion, String osName, String osVersion) throws Exception {
 		
-		System.out.println("<<<<<<<<<< Capability1 : " + browserName + " " + browserVersion + " " + osName + " " + osVersion);
-		System.out.println("<<<<<<<<<<<<" + userName + accessKey );
+		System.out.println("<<<<<<<<<< Capability : " + browserName + " " + browserVersion + " " + osName + " " + osVersion);
 				
 		// ******************* Parallel test run in Browser Stack ***********************
 		
